@@ -107,7 +107,7 @@ header a:hover {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
     color: white;
     background-image: linear-gradient(0deg,
             rgba(36, 38, 39, 0.555),
@@ -166,27 +166,25 @@ header a:hover {
 }
 
 #nuestros-programas .caja {
-    padding: 100px 12px;
+    padding: 80px 12px;
 }
 
 #nuestros-programas h2 {
-    margin-top: 0;
-    font-size: 3.5em;
+    margin-top: 0px;
+    font-size: 3.2em;
 }
 
 #nuestros-programas p {
-    display: none;
-    margin-bottom: 30px;
-    font-weight: bold;
+    display: block;
+    margin-bottom: 30px;   
 }
 
-#nuestros-programas h3 {
-    margin-top: 0;
-
+#nuestros-programas h3{
+    margin-top: 0px;
 }
 
 #nuestros-programas .carta {
-    padding: 50px;
+    padding: 20px;
     background-color: rgba(0, 0, 0, 0.699);
     box-shadow: 2px 2px 10px rgba(70, 72, 73, 0.555);
 }
@@ -194,42 +192,54 @@ header a:hover {
 #nuestros-programas .carta {
     background-position: center center;
     background-size: cover;
-    padding: 90px 0px;
-    margin: 30px;
+    padding: 110px 0px;
+    margin: 25px;
     border-radius: 15px;
 }
 
-.carta:first-child {
+#nuestros-programas .programas {
+    display: flex;
+    justify-content: center;
+}
+
+#nuestros-programas p {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.carta:first-child{
     background-image: linear-gradient(0deg,
             rgba(70, 72, 73, 0.555),
             rgba(79, 85, 85, 0.651)), url("/assets/img/carta.jpg");
 }
 
-.carta:nth-child(2) {
-    background-image: linear-gradient(rgba(70, 72, 73, 0.555),
-            rgba(79, 85, 85, 0.651)), url("/assets/img/full-stack.jpg");
+.carta:nth-child(2){
+    background-image: linear-gradient(0deg,
+        rgba(70, 72, 73, 0.555),
+        rgba(79, 85, 85, 0.651)), url("/assets/img/full-stack.jpg");
 }
 
 
 
-.carta:nth-child(3) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("/assets/img/js.webp");
+.carta:nth-child(3){
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url("/assets/img/js.webp");
 }
 
-#caracteristicas {
+#caracteristicas{
     background-image: url("/assets/img/carta2.png");
     background-repeat: no-repeat;
     background-size: 650px 450px;
     background-position: calc(100vw - 700px) 120px;
 }
 
-#caracteristicas .caja {
+#caracteristicas .caja{
     text-align: initial;
     padding: 200px 12px;
 }
 
-#caracteristicas h3 {
+#caracteristicas h3{
     font-weight: bold;
     margin-left: 15px;
 
@@ -303,13 +313,4 @@ footer .caja {
         padding-right: 30px;
         font-size: 20px;
     }
-}
-
-#nuestros-programas .programas {
-    display: flex;
-    justify-content: center;
-}
-
-#nuestros-programas p {
-    display: block;
 }
