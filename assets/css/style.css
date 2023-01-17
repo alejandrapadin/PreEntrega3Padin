@@ -252,7 +252,7 @@ header .caja a:hover {
     padding: 5px 12px;
   }
   .titulo .programar .texto-color {
-    color: et;
+    color: blueviolet;
   }
 }
 @media (min-width: 320px) {
