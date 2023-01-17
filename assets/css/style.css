@@ -109,13 +109,15 @@ header .caja a:hover {
     padding: 200px 12px;
   }
   #quiero-programar .caja .img-caja {
+    align-items: center;
     background-image: url("/assets/img/carta3.png");
     background-size: cover;
     background-position: center center;
     height: 500px;
-    width: 1500px;
+    width: 1200px;
   }
   #quiero-programar .caja .texto {
+    text-align: center;
     align-items: center;
     width: 50%;
     max-width: 600px;
@@ -165,17 +167,18 @@ header .caja a:hover {
     box-shadow: 2px 2px 10px rgba(70, 72, 73, 0.555);
   }
   #nuestros-programas .caja .carta h3 {
-    align-items: center;
-    margin-top: 0px;
-    font-size: 2.8em;
+    text-align: center;
+    font-size: 2.3em;
     color: rgb(253, 248, 240);
   }
   #nuestros-programas .caja .carta h2 {
+    text-align: center;
     align-items: center;
     margin-top: 0px;
     font-size: 4em;
   }
   #nuestros-programas .caja .carta p {
+    text-align: center;
     display: block;
     margin-bottom: 30px;
     font-size: 2em;
@@ -192,6 +195,7 @@ header .caja a:hover {
 }
 @media (min-width: 320px) {
   #caracteristicas {
+    align-items: center;
     background-color: rgb(253, 248, 240);
     background-image: url("/assets/img/carta2.png");
     background-repeat: no-repeat;
@@ -203,15 +207,18 @@ header .caja a:hover {
     padding: 200px 12px;
   }
   #caracteristicas .caja h3 {
+    text-align: left;
     font-weight: bold;
     margin: auto;
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 5px;
   }
   #caracteristicas .caja h3 ul {
     margin-left: 5px;
+    text-align: left;
   }
   #caracteristicas .caja h3 ul li {
+    text-align: left;
     margin: 12px 0px;
     font-weight: bold;
   }
@@ -324,18 +331,16 @@ header {
   align-items: center;
   margin-top: 15px;
   justify-content: row;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 h3 {
-  align-items: center;
   justify-content: row;
   text-decoration: none;
   font-weight: bold;
   color: black;
   font-size: 1.8em;
   margin: 0;
-  margin-left: -5em;
   padding: -5px 40px;
 }
 
