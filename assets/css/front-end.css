@@ -1,0 +1,20 @@
+@media (min-width: 320px) {
+  .fondo {
+    background-color: rgb(253, 248, 240);
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .fondo p {
+    display: block;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-top: 18px;
+  }
+  .fondo .programar {
+    text-align: center;
+    padding: 5px 12px;
+  }
+  .fondo .programar .texto-color {
+    color: blueviolet;
+  }
+}

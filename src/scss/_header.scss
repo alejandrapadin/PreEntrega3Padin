@@ -1,0 +1,46 @@
+@media (min-width: 320px) {
+
+    .caja {
+        flex-direction: row;
+        align-items: center;
+            }
+        }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+     header nav {
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        justify-content: flex-end;
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+        
+        .caja {
+                flex-direction: row;
+                justify-content: space-between;
+                a {
+                    align-items: flex-end;
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: black;
+                    font-size: 1em;
+                    padding: 5px 20px;
+                    padding-left: 20px;
+                    &:hover {
+                        color: $colorButton;
+                        }
+            }
+    }
+    }
+    
+
+    
+    

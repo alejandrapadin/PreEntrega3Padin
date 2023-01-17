@@ -1,0 +1,16 @@
+@media (min-width: 320px) {
+footer {
+    background-color: rgba(197, 196, 196, 0.479);
+    .caja {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        p {
+            margin: 0;
+            padding: 12px;
+            color: rgb(100, 100, 100);
+        }
+    }
+}
+}
