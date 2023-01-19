@@ -1,0 +1,16 @@
+@media (min-width: 320px) {
+.titulo {
+    background-color: rgb(253, 248, 240);
+    justify-content: space-between;
+
+    
+    .programar {
+        align-items: center;
+        text-align: center;
+        
+        .texto-color {
+            color: $colorButton;
+        }
+    }
+}
+}

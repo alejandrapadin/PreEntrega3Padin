@@ -1,0 +1,30 @@
+@media (min-width: 320px) {
+.fondo {
+    background-color: rgb(253, 248, 240);
+    display: flex;
+    justify-content: space-evenly;
+    p {
+        display: block;
+        font-size: 1.7em;
+        font-weight: bold;
+        margin-top: 18px;
+    }
+    .programar {
+        text-align: center;
+        padding: 5px 12px;
+        .texto-color {
+            color: blueviolet;
+        }
+    }
+}
+}
+.paginas{
+    flex-direction: column;
+    display: flex;
+}
+.frontEnd{
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+
+}

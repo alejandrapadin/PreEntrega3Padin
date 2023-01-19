@@ -1,0 +1,20 @@
+@media (min-width: 320px) {
+    }
+        header {
+            background-color: rgb(253, 248, 240);
+        }    
+            h3 {
+                @extend %h3;
+            }
+
+            
+    .title {
+        @extend %title;
+    }
+    .title-color {
+        color: $colorButton;
+    }
+        
+
+
+
